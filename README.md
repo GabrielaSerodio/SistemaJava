@@ -30,7 +30,15 @@ Ao desenvolver cada funcionalidade, foram desenvolvidos critérios que deveriam 
 
 ## 3. Uso
 
-Para visualização dessa aplicação, você deverá ter instalado o JVM e criar o seu próprio banco de dados.
+Para visualização dessa aplicação, você deverá ter instalado os seguintes recursos:
+
+* Java
+* MySQL
+* Eclipse (IDE)
+
+1 Passo) Após ter instalado esses 3 recursos, você precisa baixar esse projeto e abrir no Eclipse.
+2 Passo) Conectar o MySQL com seu projeto na IDE Eclipse.
+3 Passo) Rodar a aplicação. E utliza-lá para criar seu banco de dados de funcionários e cargos.
 
 Para conectar o seu Banco de Dados com o projeto, você deverá alterar o arquivo *br.com.ConexaoBanco.java*, que se encontra na pasta src/sistema/br.com.ConexaoBanco, e inserir sua *servidor*, *usuário* e *senha*.
 
