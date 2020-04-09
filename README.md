@@ -36,9 +36,9 @@ Para visualização dessa aplicação, você deverá ter instalado os seguintes 
 * MySQL
 * Eclipse (IDE)
 
-1 Passo) Após ter instalado esses 3 recursos, você precisa baixar esse projeto e abrir no Eclipse.
-2 Passo) Conectar o MySQL com seu projeto na IDE Eclipse.
-3 Passo) Rodar a aplicação. E utliza-lá para criar seu banco de dados de funcionários e cargos.
+* Passo 1_ Após ter instalado esses 3 recursos, você precisa baixar esse projeto e abrir no Eclipse.
+* Passo 2_ Conectar o MySQL com seu projeto na IDE Eclipse.
+* Passo 3_ Rodar a aplicação. E utliza-lá para criar seu banco de dados de funcionários e cargos.
 
 Para conectar o seu Banco de Dados com o projeto, você deverá alterar o arquivo *br.com.ConexaoBanco.java*, que se encontra na pasta src/sistema/br.com.ConexaoBanco, e inserir sua *servidor*, *usuário* e *senha*.
 
