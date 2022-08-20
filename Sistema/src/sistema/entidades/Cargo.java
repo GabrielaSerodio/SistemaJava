@@ -1,9 +1,8 @@
 package sistema.entidades;
 
 public class Cargo {
-    // variável destinado ao id do cargo
+
     private int id; 
-    // variável destinado ao nome do cargo
     private String nome;
 
     public int getId() {
