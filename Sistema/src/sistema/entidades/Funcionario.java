@@ -70,6 +70,4 @@ public class Funcionario {
     public String toString() {
         return this.name + " " + this.sobrenome;
     }
-
-
 }
