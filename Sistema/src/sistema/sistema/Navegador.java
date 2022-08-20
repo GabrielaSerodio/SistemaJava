@@ -1,6 +1,5 @@
 package sistema.sistema;
 
-
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JMenu;
@@ -21,7 +20,6 @@ import sistema.telas.RelatoriosSalarios;
 
 public class Navegador {
     
-    // Menu
     private static boolean menuConstruido;
     private static boolean menuHabilitado;
     private static JMenuBar menuBar;
@@ -102,13 +100,11 @@ public class Navegador {
             
             menuBar = new JMenuBar();
             
-            // menu Arquivo
             menuArquivo = new JMenu("Arquivo");
             menuBar.add(menuArquivo);
             miSair = new JMenuItem("Sair");
             menuArquivo.add(miSair);
             
-            // menu Funcionários
             menuFuncionarios = new JMenu("Funcionários");
             menuBar.add(menuFuncionarios);
             miFuncionariosCadastrar = new JMenuItem("Cadastrar");
@@ -116,7 +112,6 @@ public class Navegador {
             miFuncionariosConsultar = new JMenuItem("Consultar");
             menuFuncionarios.add(miFuncionariosConsultar);
             
-            // menu Cargos
             menuCargos = new JMenu("Cargos");
             menuBar.add(menuCargos);
             miCargosCadastrar = new JMenuItem("Cadastrar");
@@ -124,7 +119,6 @@ public class Navegador {
             miCargosConsultar = new JMenuItem("Consultar");
             menuCargos.add(miCargosConsultar);
             
-            // menu Relatórios
             menuRelatorios = new JMenu("Relatórios");
             menuBar.add(menuRelatorios);
             miRelatoriosCargos = new JMenuItem("Funcionários por cargos");
@@ -160,7 +154,6 @@ public class Navegador {
             }
         });
         
-        // Funcionario
         miFuncionariosCadastrar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -174,7 +167,6 @@ public class Navegador {
             }
         });
         
-        // Cargos
         miCargosCadastrar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
