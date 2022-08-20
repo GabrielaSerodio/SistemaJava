@@ -10,9 +10,7 @@ import java.sql.Statement;
 public class ConexaoMySQL {
 
 	public static void main(String[] args) {
-		
-//		String driverName = "com.mysql.jdbc.Driver";
-		
+				
 		String servidor = "jdbc:mysql://localhost:3306/sistema_funcionarios?useTimezone=true&serverTimezone=UTC&useSSL=false";
 		String usuario = "root";
 		String senha = "Eita@123";
